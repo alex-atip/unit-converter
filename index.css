@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    height: 285px;
+    width: 550px;
+    background: #6943FF;
+}
+
+.unit-container {
+    height: 444px;
+    width: 550px;
+    background: #1F2937;
+    gap: 33.6px;
+}
+
+.meter {
+    width: 500px;
+    height: 108.5px;
+    border-radius: 4.681px 0 0 0;
+    background: #273549;
+    margin-top: 36px;
+    margin-left: 25px;
+}
+
+.volume {
+    width: 500px;
+    height: 108.5px;
+    border-radius: 4.681px 0 0 0;
+    background: white;
+    margin-left: 25px;
+    margin-top: 23.4px;
+
+}
+
+.mass {
+    width: 500px;
+    height: 108.5px;
+    border-radius: 4.681px 0 0 0;
+    background: #273549;
+    margin-left: 25px;
+    margin-top: 23.4px;
+    margin-bottom: 36px;
+
+}
