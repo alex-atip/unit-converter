@@ -1,6 +1,6 @@
 # ⚖️ Metric/Imperial Unit Converter
 
-<img width="1417" height="757" alt="Image" src="https://github.com/user-attachments/assets/9a80027c-2aa4-4d81-b7cf-3c0f6130ea36" />
+<img width="880" height="752" alt="Image" src="https://github.com/user-attachments/assets/3efb6859-2495-4c91-aa8e-482a42e49b9f" />
 
 ---
 
@@ -59,7 +59,7 @@ This project includes basic accessibility best practices:
 ```html
 <label for="input-el" class="sr-only">Enter a number to convert</label>
 <input type="number" id="input-el" aria-label="unit value to convert" />
-
+```
 ---
 
 ## ⚙️ Getting Started
