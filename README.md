@@ -1,19 +1,107 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# ⚖️ Metric/Imperial Unit Converter
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+<img width="1417" height="757" alt="Image" src="https://github.com/user-attachments/assets/9a80027c-2aa4-4d81-b7cf-3c0f6130ea36" />
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+---
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## 🌐 Live Demo
 
-Happy Coding!
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-blue?style=for-the-badge)](https://)
+
+---
+
+## 🧩 Requirements from the course
+- Follow the provided **design spec (Figma)**  
+- Generate all conversions when the user clicks **“Convert”**  
+- Round the numbers down to **three decimal places**  
+- Reinforce **JavaScript fundamentals** with clean, reusable functions  
+
+---
+
+## 🧠 What I learned
+Through this project I practiced and reinforced:
+- Creating **pure functions** for mathematical conversions  
+- Using **objects as return values** to organize multiple results  
+- Passing data through **parameters** and managing **function scope**  
+- Updating the DOM dynamically using **`textContent`** (instead of `innerHTML`)  
+- Structuring and styling with **clean, consistent CSS**  
+- Improving **HTML accessibility** with semantic tags and ARIA labels  
+- Replacing Vite setup with a **simple static deployment** for easier hosting  
+
+---
+
+## 🛠️ Technologies Used
+- HTML  
+- CSS  
+- JavaScript  
+
+---
+
+## ⚙️ Features
+- ✅ Converts **Length (Meters ↔ Feet)**  
+- ✅ Converts **Volume (Liters ↔ Gallons)**  
+- ✅ Converts **Mass (Kilograms ↔ Pounds)**  
+- ✅ All conversions trigger with one button click  
+- ✅ Numbers rounded to three decimal places  
+- ✅ Accessible input field for screen readers (`label`, `aria-label`, `type="number"`)  
+- ✅ Fully responsive and faithful to Scrimba’s Figma design  
+
+---
+
+## ♿ Accessibility Improvements
+This project includes basic accessibility best practices:
+- `type="number"` for numeric-only input and mobile keyboard support  
+- `label for="input-el"` linked to input field  
+- `.sr-only` class added to make labels readable by screen readers only  
+- `aria-label` describing input purpose (“unit value to convert”)
+- Visible focus state on button for keyboard navigation  
+
+```html
+<label for="input-el" class="sr-only">Enter a number to convert</label>
+<input type="number" id="input-el" aria-label="unit value to convert" />
+
+---
+
+## ⚙️ Getting Started
+
+To run this project locally:
+
+1. Clone the repository  
+2. Open `index.html` in your browser  
+   *(or use a Live Server extension)*
+
+---
+
+## 🏫 About Scrimba
+
+At **Scrimba**, our mission is to make the best coding school in the world —  
+for the price of a gym membership. 💜
+
+The **Frontend Career Path** provides hands-on projects like this one to build real coding confidence through practice and repetition. 🎯
+
+* [Scrimba Courses](https://scrimba.com/courses)
+* [Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
+* [Scrimba Pro](https://scrimba.com/pricing)
+
+---
+
+## 💬 Feedback
+
+I’m always improving as a developer — any tips, feedback, or code suggestions are welcome! 🌱
+
+---
+
+## 💜 Happy Coding!
+
+Committed to learning fundamentals deeply and building strong foundations — one project at a time.
+
+---
+
+## 🧑‍💻 Author
+
+**Alexandre Oliveira de Souza**  
+Aspiring Fullstack Developer | Learning in public ✨
+
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alex-atip)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexandre-yukon/)
+
