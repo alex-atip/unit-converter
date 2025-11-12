@@ -26,19 +26,17 @@ body {
 }
 
 #input-el {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     background: #6943FF;
     height: 83px;
     width: 117px;
     border-radius: 5px;
     color: #FFF;
-    font-family: "Inter", sans-serif;
     font-weight: 800;
     font-size: 58px;
     border: 2px solid #B295FF;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 #input-btn {
@@ -48,12 +46,11 @@ body {
     font-size: 16px;
     font-weight: 500;
     color: #3D3D3D;
-    font-family: "Inter", sans-serif;
     border-radius: 5px;
     border: none;
     background: #FFF;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-
+    cursor: pointer;
 }
 
 .unit-container {
@@ -79,7 +76,6 @@ body {
     background: #273549;
     margin-left: 25px;
     margin-top: 23.4px;
-
 }
 
 .mass {
@@ -90,13 +86,11 @@ body {
     margin-left: 25px;
     margin-top: 23.4px;
     margin-bottom: 36px;
-
 }
 
 .unit {
     color: #CCC1FF;
     text-align: center;
-    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 600;
     padding-top: 31px;
@@ -108,6 +102,5 @@ body {
     flex-direction: column;
     align-items: center;
     font-size: 14;
-    font-family: "Inter", sans-serif;
     font-weight: 400;
 }
