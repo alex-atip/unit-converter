@@ -6,7 +6,7 @@
 
 ## 🌐 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-blue?style=for-the-badge)]([https://](https://unit-converter-css-js-html.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-blue?style=for-the-badge)](https://unit-converter-css-js-html.netlify.app/)
 
 ---
 
